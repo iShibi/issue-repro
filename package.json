@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "issue-repro",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "vitest",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "undici": "^4.12.1"
+  },
+  "devDependencies": {
+    "vitest": "^0.0.124"
+  },
+  "type": "module"
+}
